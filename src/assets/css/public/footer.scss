@@ -1,0 +1,125 @@
+.el-footer {
+  width: 100% !important;
+}
+
+.com-footer {
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', 'MIcrosoft YaHei', sans-serif !important;
+  margin-top: 40px;
+  background: #f8f8f8;
+  .footer-content {
+    width: 1190px;
+    margin: 0 auto;
+    color: #333;
+    font-size: 12px;
+    line-height: 2;
+    box-sizing: border-box;
+    text-align: left;
+    .footer-link {
+      color: #333;
+      text-align: left;
+      padding: 40px 45px;
+      border-top: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+      overflow: hidden;
+      .footer-column {
+        color: #333;
+        text-align: left;
+        width: 20%;
+        float: left;
+        dl {
+          text-align: left;
+          padding: 0;
+          margin: 0;
+          padding-bottom: 20px;
+          color: #666;
+          dt {
+            color: #333;
+            font-size: 14px;
+            font-weight: 500;
+          }
+          dd {
+            margin: 0;
+          }
+          a {
+            color: #666;
+          }
+        }
+      }
+    }
+    .footer-copyright {
+      color: #999;
+      padding-left: 20px;
+      padding-top: 15px;
+      padding-bottom: 30px;
+      line-height: 1.6;
+      overflow: hidden;
+      p {
+        margin: 0;
+      }
+      .footer-copyright-left {
+        float: left;
+        p {
+          a {
+            color: #999;
+          }
+        }
+      }
+      .footer-copyright-right {
+        float: right;
+        a {
+          color: #999;
+        }
+        .footer-copyright-cert {
+          text-align: left;
+          padding-top: 6px;
+          .bus-license {
+            color: #999;
+            p {
+              float: left;
+              line-height: 38px;
+              padding: 0 5px;
+            }
+            img {
+              float: left;
+              width: 38px;
+              height: 38px;
+            }
+          }
+          .sp-ft {
+            display: inline-block;
+            overflow: hidden;
+            text-indent: -1000px;
+            height: 38px;
+            background-image: url('https://s0.meituan.net/bs/fe-web-meituan/6df4aa7/img/sprites/footer.png');
+            background-repeat: no-repeat;
+            margin-right: 2px;
+          }
+          .sp-ft--record {
+            width: 109px;
+            background-position: 0 -167px;
+          }
+          .sp-ft {
+            display: inline-block;
+            overflow: hidden;
+            text-indent: -1000px;
+            height: 38px;
+            background-image: url(https://s0.meituan.net/bs/fe-web-meituan/6df4aa7/img/sprites/footer.png);
+            background-repeat: no-repeat;
+            margin-right: 2px;
+          }
+          .sp-ft--12315 {
+            width: 107px;
+            background-position: 0 -40px;
+          }
+          a {
+            color: #999;
+          }
+        }
+      }
+    }
+  }
+
+  .clearfix {
+    clear: both;
+  }
+}

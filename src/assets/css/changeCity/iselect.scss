@@ -1,0 +1,42 @@
+.page-changeCity {
+  width: 1190px;
+  box-sizing: border-box;
+  margin: 20px auto 0;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  min-height: 1000px;
+  padding: 20px;
+  .m-iselect {
+    .province {
+      cursor: pointer;
+      border-radius: 4px;
+      margin: 0 10px 0 20px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+    }
+
+    .city {
+      cursor: not-allowed;
+      border-radius: 4px;
+      margin: 0 20px 0 10px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+    }
+
+    .name.search {
+      margin-left: 50px;
+    }
+    .label {
+      margin-left: 40px;
+    }
+  }
+  .el-row {
+    padding: 30px 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+}

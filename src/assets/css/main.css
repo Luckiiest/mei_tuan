@@ -1,0 +1,46 @@
+.layout-blank {
+  background-color: '#fff';
+  color: #2e2f30;
+  letter-spacing: 0.5px;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  height: 10vh;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+body * {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a,
+a:hover,
+a:focus,
+a:visited {
+  color: #41b883;
+}
+ul,
+li {
+  list-style-type: none;
+}
+.logo {
+  width: 243px;
+  height: 218px;
+}
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: o;
+}

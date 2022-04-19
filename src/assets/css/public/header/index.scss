@@ -1,0 +1,42 @@
+@import './topbar.scss';
+@import './search.scss';
+
+@font-face {
+  font-family: 'com_header';
+  src: url('https://s0.meituan.net/bs/fe-web-meituan/6937298/font/header.woff?t=1501036445556') format('woff'); /* chrome, firefox */
+}
+@font-face {
+  font-family: 'com_header';
+  src: url('https://s0.meituan.net/bs/fe-web-meituan/6937298/font/iconfont-search.woff') format('woff');
+}
+
+.m-header {
+  @at-root .layout-default {
+    .el-header {
+      .m-header {
+        width: 100%;
+      }
+    }
+  }
+
+  > .el-row:nth-child(1) {
+    width: 1190px;
+    margin: 0 auto;
+    z-index: 9999;
+    height: 40px;
+    line-height: 40px;
+  }
+  > .el-row:nth-child(2) {
+    background-color: #fff;
+    .search-panel {
+      width: 1190px;
+      margin: 0 auto;
+    }
+  }
+  > .el-main {
+    overflow: unset;
+  }
+  a {
+    text-decoration: none;
+  }
+}

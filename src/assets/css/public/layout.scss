@@ -1,0 +1,166 @@
+.el-header,
+.el-main,
+.el-footer {
+  width: 1190px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: unset !important;
+}
+
+.el-header {
+  background-color: #f8f8f8;
+  color: #999;
+  width: 100%;
+  font-size: 12px;
+  .m-header {
+    width: 1190px;
+    margin: 0 auto;
+  }
+}
+
+.layout-defaultf {
+  -webkit-font-smoothing: antialiased;
+  font-family: '-apple-system', BlinkMacSystemFont, Roboto, 'Helvetica Neue', 'MIcrosoft YaHei', sans-serif !important;
+  background-color: #f8f8f8;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('https://s0.meituan.net/bs/fe-web-meituan/6937298/font/iconfont.woff?t=1500964529975') format('woff'); /* chrome, firefox */
+}
+
+@font-face {
+  font-family: 'numbers';
+  src: url('https://s0.meituan.net/bs/fe-web-meituan/6937298/font/numbers.woff') format('woff'); /* chrome、firefox */
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'MFShangHei-Regular';
+  src: url('https://s0.meituan.net/bs/fe-web-meituan/6937298/font/MFShangHei-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'iconfontNew';
+  src: url('https://s0.meituan.net/bs/fe-web-meituan/6937298/font/iconfontNew.woff') format('woff');
+}
+.hc-icon-foodNew:before {
+  content: '\e60e';
+  color: #ff8200;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-hotelNew:before {
+  content: '\e616';
+  color: #9b5e3e;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-maoyanNew:before {
+  content: '\e612';
+  color: #ff3d00;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-ktvNew:before {
+  content: '\e607';
+  color: #00bf96;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-zhenguoNew:before {
+  content: '\e60c';
+  color: #ffb500;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-beautyNew:before {
+  content: '\e60f';
+  color: #ff4081;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-marriedNew:before {
+  content: '\e609';
+  color: #ff4081;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-childNew:before {
+  content: '\e608';
+  color: #ff4081;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-sportNew:before {
+  content: '\e611';
+  color: #03a9f4;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-decorateNew:before {
+  content: '\e60b';
+  color: #00bf96;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-educationNew:before {
+  content: '\e610';
+  color: #00bf96;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-medicalNew:before {
+  content: '\e60d';
+  color: #03a9f4;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-barNew:before {
+  content: '\e606';
+  color: #00bf96;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-waimaiNew:before {
+  content: '\e60a';
+  color: #ffb500;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-planeNew:before {
+  content: '\e615';
+  color: #03a9f4;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-lifeNew:before {
+  content: '\e614';
+  color: #00bf96;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+.hc-icon-travelNew:before {
+  content: '\e613';
+  color: #03a9f4;
+  vertical-align: middle;
+  line-height: 18px;
+}
