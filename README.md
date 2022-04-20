@@ -1,21 +1,26 @@
 # mei_tuan_app
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
-# 美团项目接口文档
+这是一个仿美团网站项目
+
+# 仿美团项目接口文档
 
 接口根地址:
 
@@ -25,18 +30,16 @@ https://www.fastmock.site/mock/aa83bd4cc0a2b01d07904f02ceea29ad/meituan
 
 > /api/meituan/register
 
-
-
 > 返回示例
 
 > 成功
 
 ```json
 {
-  'status': 'success',
-  'msg': '成功',
-  'data': {
-    'userName': "admin"
+  "status": "success",
+  "msg": "成功",
+  "data": {
+    "userName": "admin"
   }
 }
 ```
@@ -115,24 +118,23 @@ passWord: admin
 
 > /api/meituan/city/getPosition
 
-
-
 > 返回示例
 
 > 成功
 
 ```json
 {
-  'status': 'success',
-  'msg': '成功',
-  'data': {
+  "status": "success",
+  "msg": "成功",
+  "data": {
     "id": 20,
     "name": "河北",
     "pinyin": "hebei",
     "acronvm": "hb",
     "rank": "H",
-    "firstChar": 'h',
-    "nearCity": [{
+    "firstChar": "h",
+    "nearCity": [
+      {
         "id": 76,
         "name": "石家庄",
         "pinyin": "shijiazhuang",
@@ -155,7 +157,8 @@ passWord: admin
         "acronym": "lf",
         "rank": "D",
         "firstChar": "L"
-      },]
+      }
+    ]
   }
 }
 ```
@@ -166,12 +169,9 @@ passWord: admin
 | ------ | ---------- | ---- | ------ |
 | sucess | 成功       | 成功 | Inline |
 
-
 ## GET 获取省份列表
 
 > /api/meituan/city/province
-
-
 
 > 返回示例
 
@@ -208,11 +208,9 @@ passWord: admin
 
 > /api/meituan/city/recents
 
-
-
 > 返回实例
 
->成功
+> 成功
 
 ```json
 {
@@ -242,11 +240,9 @@ passWord: admin
 
 > /api/meituan/city/hot
 
-
-
 > 返回实例
 
->成功
+> 成功
 
 ```json
 {
@@ -276,11 +272,9 @@ passWord: admin
 
 > /api/meituan/list/goodsList
 
-
-
 > 返回实例
 
->成功
+> 成功
 
 ```json
 {
@@ -319,11 +313,9 @@ passWord: admin
 
 > /api/meituan/index/resultByKeywords
 
-
-
 > 返回实例
 
->成功
+> 成功
 
 ```json
 {
@@ -358,11 +350,9 @@ passWord: admin
 
 > /api/meituan/index/nav
 
-
-
 > 返回实例
 
->成功
+> 成功
 
 ```json
 {
@@ -404,21 +394,17 @@ passWord: admin
 
 > /api/meituan/header/search
 
-
-
 > 返回实例
 
->成功
+> 成功
 
 ```json
 {
- "msg": "成功",
- "status": "success",
- "data": {
-   "list": [
-      "火锅","海鲜","火锅自助","海鲜自助","东北铁锅炖"
-    ]
- }
+  "msg": "成功",
+  "status": "success",
+  "data": {
+    "list": ["火锅", "海鲜", "火锅自助", "海鲜自助", "东北铁锅炖"]
+  }
 }
 ```
 
@@ -432,17 +418,15 @@ passWord: admin
 
 > /api/meituan/header/searchHotWords
 
-
-
 > 返回实例
 
->成功
+> 成功
 
 ```json
 {
- "msg": "成功",
- "status": "success",
- "data": ["故宫博物院","北京欢乐谷","故宫珍宝馆","尚隐·泉都市生活馆","八达岭长城","北京连升商务酒店"]
+  "msg": "成功",
+  "status": "success",
+  "data": ["故宫博物院", "北京欢乐谷", "故宫珍宝馆", "尚隐·泉都市生活馆", "八达岭长城", "北京连升商务酒店"]
 }
 ```
 
